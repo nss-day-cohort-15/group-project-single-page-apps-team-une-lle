@@ -1,4 +1,14 @@
-./*topRow {
+.navbar {
+  background-color: #fff;
+  border-bottom: solid 1px grey;
+  box-shadow: 5px 5px 2px #888888;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.topRow {
   height: 50px;
   font-size: 1.5em;
   margin-top: 10px;
@@ -7,6 +17,10 @@
 .checkboxRow {
   height: 50px;
   margin-top: 10px;
+}
+
+.checkboxRow div label {
+  margin-left: 5px;
 }
 
 .messagesRow {
@@ -32,9 +46,68 @@
   font-size: 15px;
   padding: 5px;
   background-color: #ddd;
-}*/
+}
 
+/*Bootstrap Media Breaks*/
 
+/*
+<768px is xs | container width will be auto | use .col-xs-
+768 to 991 is s | container width will be 750 | use .col-sm-
+992 to 1199 is md | container width will be 970 | use .col-md-
+1200+ is lg | container width will be 1170 | use .col-lg-
+*/
+
+/*lg*/
+@media (min-width: 1200px) {
+
+}
+
+/*md*/
+@media (max-width: 1199px) {
+
+}
+
+/*sm*/
+@media (max-width: 991px) {
+  .clearButton {
+    font-size: 12px;
+  }
+
+}
+
+/*xs*/
+@media (max-width: 767px) {
+  body {
+    padding-top: 110px;
+  }
+  .topRow {
+    height: 100px;
+  }
+  .checkboxRow {
+    height: 70px;
+  }
+  .messagesRow {
+    height: 30px;
+  }
+  .enterMessage {
+    max-width: 50vw;
+  }
+  .clearButton {
+    width: 150px;
+  }
+  .clearButtonDiv {
+
+  }
+  .inputDiv {
+    margin-left: 5px;
+  }
+  .outputRow {
+    max-width: 90vw;
+    margin: 10px auto;
+
+  }
+
+}
 
 
 
