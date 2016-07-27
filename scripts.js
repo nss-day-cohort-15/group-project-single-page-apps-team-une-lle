@@ -1,9 +1,11 @@
-var inputField = document.getElementById("enterMessage");
+var inputField = document.querySelector("#enterMessage");
 inputField.addEventListener("keypress", function(e) {
     if (event.keyCode === 13) {
-        var userMessage = document.getElementById("enterMessage").value;
-        var outputField = document.getElementById("outputField");
-        outputField.value = userMessage;
+        var userMessage = document.querySelector("#enterMessage").value;
+        console.log(userMessage);
+        var outputField = document.querySelector(".outputField");
+        outputField.innerHTML += `<p>${userMessage}</p>`;
+        console.log('ya')
     }
 })
 
@@ -11,7 +13,8 @@ inputField.addEventListener("keypress", function(e) {
 
 var clearButton = document.getElementById("clearButton");
 clearButton.addEventListener("click", function(e) {
-document.getElementById("outputField").innerHTML = '';
+    console.log('ta');
+// document.querySelector("outputField").innerHTML = '';
 })
 
 var mainMessage = (function () {
