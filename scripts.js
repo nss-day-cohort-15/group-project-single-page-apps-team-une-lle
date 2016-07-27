@@ -14,7 +14,7 @@ clearButton.addEventListener("click", function(e) {
 document.getElementById("outputField").innerHTML = '';
 })
 
-var mainMessage = (function () {
+var Chatty = (function () {
 
   return {
     getPreFill: function (callBack) {
@@ -35,4 +35,4 @@ function showPreFill (messages) {
     list.innerHTML += `<span class="messageOutput">${message}</span><button class="delete">Delete</button>`
   })
 }
-mainMessage.getPreFill(showPreFill);
+Chatty.getPreFill(showPreFill);
