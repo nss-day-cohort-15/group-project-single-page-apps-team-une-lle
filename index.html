@@ -5,12 +5,53 @@
 
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  
+  <link rel="stylesheet" type="text/css" href="main.css">
+
   <title>Chatty Project</title>
 
 </head>
 <body>
+  <div class="container">
+    <div class="row topRow">
+      <div class="col-sm-2">
+        Logo
+      </div>
+
+      <div class="col-sm-7">
+        <input type="text" id="enterMessage" class="enterMessage">
+      </div>
+
+      <div class="col-sm-3">
+        <button id="clearButton" class="clearButton">Clear message button</button>
+      </div>
+    </div>
+
+    <div class="row checkboxRow">
+      <div class="col-sm-2">
+        <!-- spacer -->
+      </div> 
+
+      <div class="col-sm-2">  
+        <input type="checkbox"><label>Dark Theme</label>
+      </div>
+
+      <div class="col-sm-2">  
+        <input type="checkbox"><label>Large Text</label>
+      </div> 
+    </div>
+
+      <div class="row messagesRow">
+        <div class="col-sm-2">
+          Messages:
+        </div>
+      </div>
+
+      <div class="row outputRow">
+        <div class="col-sm-11 outputField">
+          Output span -----> Button
+        </div>          
+      </div>
+
 
 </body>
 </html>
