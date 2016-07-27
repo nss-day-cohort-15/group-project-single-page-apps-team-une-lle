@@ -15,23 +15,23 @@ document.getElementById("outputField").innerHTML = '';
 })
 
 var mainMessage = (function () {
-  var preFill = []
+
   return {
     getPreFill: function (callBack) {
       var xhr = new XMLHttpRequest()
         xhr.open('GET', 'messages.json')
-        xhr.addEventListener('load', function() {
-          JSON.parse(preFill.responseText)
+        xhr.addEventListener('load', function(event) {
+          var preFill = JSON.parse(event.target.responseText)
           callBack(preFill)
         })
       xhr.send()
     }
   }
-})
+})();
 
 function showPreFill (messages) {
   var list = document.querySelector('.outputField')
-  preFill.forEach(function (message) {
+  messages.forEach(function (message) {
     list.innerHTML += `<span>${message}</span><button class="delete">Delete</button>`
   })
 }
