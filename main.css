@@ -48,6 +48,11 @@ body {
   background-color: #ddd;
 }
 
+.delete {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
 /*Bootstrap Media Breaks*/
 
 /*
@@ -106,7 +111,6 @@ body {
     margin: 10px auto;
 
   }
-
 }
 
 

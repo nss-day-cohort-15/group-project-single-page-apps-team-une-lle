@@ -35,7 +35,7 @@ var Chatty = (function () {
 function showPreFill (messages) {
   var list = document.querySelector('.outputField')
   messages.forEach(function (message) {
-    list.innerHTML += `<span class="messageOutput">${message}</span><button class="delete">Delete</button>`
+    list.innerHTML += `<span class="messageOutput">${message}</span><button class="delete">Delete</button><br>`
   })
 }
 Chatty.getPreFill(showPreFill);
