@@ -14,7 +14,7 @@ inputField.addEventListener("keypress", function(e) {
 var clearButton = document.getElementById("clearButton");
 clearButton.addEventListener("click", function(e) {
     console.log('ta');
-// document.querySelector("outputField").innerHTML = '';
+document.querySelector(".outputField").innerHTML = '';
 })
 
 var Chatty = (function () {
