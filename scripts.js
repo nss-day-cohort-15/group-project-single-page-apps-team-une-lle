@@ -11,6 +11,7 @@ inputField.addEventListener("keypress", function(e) {
 
         // console.log(messagesLogged)
 
+        inputField.value = "";
     }
 })
 
