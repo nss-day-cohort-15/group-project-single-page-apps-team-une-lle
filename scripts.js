@@ -16,13 +16,15 @@ inputField.addEventListener("keypress", function(e) {
 })
 
 document.querySelector("body").addEventListener("click", function(event) {
-
+  console.log(event);
+  console.log(event.target.parentElement)
   if (event.target.className.toLowerCase() ===
     "delete") {
 
-  var child = document.getElementById("outputSpan");
-  var parent = document.getElementById("outputDiv");
-  parent.removeChild(child);
+  // var child = document.getElementById("outputSpan");
+  // var parent = document.getElementById("outputDiv");
+  // parent.removeChild(child);
+  event.target.parentElement.remove();
 
   console.log(messagesLogged);
   }
@@ -59,8 +61,8 @@ document.getElementById("darkThemeBox").addEventListener("click", function () {
 document.getElementById("largeTextBox").addEventListener("click", function () {
   if (document.getElementById("largeTextBox").checked === true) {
     document.getElementById("outputField").className  = "outputField outputFieldLarge"
-  } else { 
-    document.getElementById("outputField").className  = "outputField"; 
+  } else {
+    document.getElementById("outputField").className  = "outputField";
   }
 });
 
