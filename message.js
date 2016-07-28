@@ -2,9 +2,9 @@ var Chatty = (function (oldChatty) {
 
 
     oldChatty.showPreFill = function (messages) {
-    var list = document.querySelector('.outputField')
+    outputField = document.querySelector('.outputField')
     messages.forEach(function (message) {
-    list.innerHTML += `<span class="messageOutput">${message}</span><button class="delete">Delete</button><br>`
+    outputField.innerHTML += `<div id="outputDiv"><span id="outputSpan">${message}</span><button class="delete">Delete</button></div>`
       })
     }
   return oldChatty
