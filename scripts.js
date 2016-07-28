@@ -4,7 +4,8 @@ inputField.addEventListener("keypress", function(e) {
         var userMessage = document.querySelector("#enterMessage").value;
         console.log(userMessage);
         var outputField = document.querySelector(".outputField");
-        outputField.innerHTML += `<p>${userMessage}</p>`;
+        outputField.innerHTML += `<span>${userMessage}</span><button class="delete">Delete</button><br>`
+
         console.log('ya')
     }
 })
@@ -18,7 +19,10 @@ document.querySelector(".outputField").innerHTML = '';
 
 })
 
-
+// function listenPlease() {
+// document.querySelector("body").addEventListener("click", function(event) {
+//   console.log(event);
+// })
 
 document.getElementById("darkThemeBox").addEventListener("click", function () {
   if (document.getElementById("darkThemeBox").checked === true) {

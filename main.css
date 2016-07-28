@@ -120,11 +120,15 @@ body {
 
 
 
-/*Styling for checkboxes*/
+/*/*Styling for checkboxes*/
 
 /*Dark Theme*/
 
+<<<<<<< HEAD
 .bodyDark {
+=======
+/*body {
+>>>>>>> e73a7b41858b6f7eba4ce897466814821b158254
   background-color: #555;
   color: white;
 }
