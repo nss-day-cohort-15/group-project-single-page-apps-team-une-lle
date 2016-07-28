@@ -11,6 +11,8 @@ var Chatty = (function (oldChatty) {
 })(Chatty);
 Chatty.getPreFill(Chatty.showPreFill);
 
+
+
 // function showPreFill (messages) {
 //   var list = document.querySelector('.outputField')
 //   messages.forEach(function (message) {

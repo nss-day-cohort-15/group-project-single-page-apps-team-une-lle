@@ -18,6 +18,9 @@ clearButton.addEventListener("click", function(e) {
 document.querySelector(".outputField").innerHTML = '';
 })
 
-
+// function listenPlease() {
+// document.querySelector("body").addEventListener("click", function(event) {
+//   console.log(event);
+// })
 
 
