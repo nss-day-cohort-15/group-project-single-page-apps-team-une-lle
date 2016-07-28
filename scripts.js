@@ -18,6 +18,8 @@ document.querySelector(".outputField").innerHTML = '';
 
 })
 
+
+
 document.getElementById("darkThemeBox").addEventListener("click", function () {
   if (document.getElementById("darkThemeBox").checked === true) {
 
@@ -34,9 +36,12 @@ document.getElementById("darkThemeBox").addEventListener("click", function () {
     document.getElementById("clearButton").style.color = "white";
 
   }
+
 });
 
 
+document.getElementById("largeTextBox").addEventListener("click", function () {
+  if (document.getElementById("largeTextBox").checked === true) {
 
-
-
+  }
+});
