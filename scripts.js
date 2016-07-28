@@ -65,10 +65,3 @@ document.getElementById("largeTextBox").addEventListener("click", function () {
     document.getElementById("outputField").className  = "outputField";
   }
 });
-
-
-
-
-
-
-
