@@ -37,7 +37,7 @@ body {
 }
 
 .outputField {
-
+  padding: 5px;
 }
 
 .enterMessage {
@@ -124,11 +124,8 @@ body {
 
 /*Dark Theme*/
 
-<<<<<<< HEAD
+
 .bodyDark {
-=======
-/*body {
->>>>>>> e73a7b41858b6f7eba4ce897466814821b158254
   background-color: #555;
   color: white;
 }
@@ -147,9 +144,7 @@ body {
 
 
 /*
-label {
-  font-size: 1.25em;
-}
+
 .checkboxRow div:first-child {
   width: 0px;
 }
@@ -171,3 +166,59 @@ label {
   font-size: 1.25em;
 }
 */
+
+button {
+  color: black;
+}
+
+.outputField button {
+  border: solid 1px black;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 3px;
+  background-color: #ddd;
+}
+
+.outputField {
+  padding-top: 10px;
+}
+img {
+  border-radius: 7px;
+  margin-left: 5px;
+}
+
+.darkThemeDiv {
+  border-radius: 7px;
+  background-color: #555;
+  color: white;
+  border: solid 1px white;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  height: 32px;
+  padding-top: 4px;
+  box-shadow: 5px 5px 2px #888888;
+}
+
+.largeThemeDiv {
+  font-size: 1.25em;
+  border: solid 1px black;
+  border-radius: 7px;
+  width: 200px;
+  height: 32px;
+  box-shadow: 5px 5px 2px #888888;
+}
+
+/**/
+.darkThemeDivLarge {
+  font-size: 1.25em;
+  padding-top: 0;
+  padding-left: 4px;
+}
+
+.outputFieldLarge {
+  font-size: 1.5em;
+}
+
+
+
