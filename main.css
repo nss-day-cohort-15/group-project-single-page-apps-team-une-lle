@@ -124,16 +124,19 @@ body {
 
 /*Dark Theme*/
 
-body {
+.bodyDark {
   background-color: #555;
   color: white;
 }
-.navbar {
+.navbarDark {
   background-color: #555;
   border-bottom: solid 1px #444;
   box-shadow: 5px 5px 2px #222;
 }
-button {
+.enterMessageDark {
+  color: black;
+}
+.buttonDark {
   color: black;
 }
 
@@ -141,3 +144,34 @@ button {
 /*Large Text Theme*/
 
 
+/*
+label {
+  font-size: 1.25em;
+}
+
+
+.checkboxRow div:first-child {
+  width: 0px;
+}
+.checkboxRow div:nth-child(2) {
+  margin-left: 45px;
+  width: 200px;
+}
+.checkboxRow div:nth-child(3) {
+  margin-left: 75px;
+  width: 200px;
+}
+
+.messagesRow p {
+  font-size: 1.35em;
+}
+
+.outputField span {
+  font-size: 1.35em;
+}
+
+.outputField button {
+  font-size: 1.25em;
+}
+
+*/
