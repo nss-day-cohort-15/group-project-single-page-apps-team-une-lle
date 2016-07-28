@@ -34,10 +34,11 @@ body {
   border: solid 1px black;
   margin-top: 5px;
   overflow: auto;
+  padding: 5px;
 }
 
 .outputField {
-  padding: 5px;
+
 }
 
 .enterMessage {
