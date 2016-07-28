@@ -143,8 +143,6 @@ body {
 .buttonDark {
   color: black;
 }
-
-
 /*Large Text Theme*/
 
 
@@ -152,8 +150,6 @@ body {
 label {
   font-size: 1.25em;
 }
-
-
 .checkboxRow div:first-child {
   width: 0px;
 }
@@ -165,17 +161,13 @@ label {
   margin-left: 75px;
   width: 200px;
 }
-
 .messagesRow p {
   font-size: 1.35em;
 }
-
 .outputField span {
   font-size: 1.35em;
 }
-
 .outputField button {
   font-size: 1.25em;
 }
-
 */
