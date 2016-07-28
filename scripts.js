@@ -4,7 +4,8 @@ inputField.addEventListener("keypress", function(e) {
         var userMessage = document.querySelector("#enterMessage").value;
         console.log(userMessage);
         var outputField = document.querySelector(".outputField");
-        outputField.innerHTML += `<p>${userMessage}</p>`;
+        outputField.innerHTML += `<span>${userMessage}</span><button class="delete">Delete</button><br>`
+
         console.log('ya')
     }
 })
