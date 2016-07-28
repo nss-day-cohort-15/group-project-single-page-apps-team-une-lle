@@ -49,15 +49,23 @@ document.getElementById("darkThemeBox").addEventListener("click", function () {
     document.getElementById("navbar").className = "navbar navbar-default navbar-fixed-top";
     document.getElementById("body").className = "";
     document.getElementById("enterMessage").className = "enterMessage";
-    document.getElementById("clearButton").style.color = "white";
+    document.getElementById("clearButton").style.color = "black";
 
   }
-
 });
 
 
 document.getElementById("largeTextBox").addEventListener("click", function () {
   if (document.getElementById("largeTextBox").checked === true) {
-
+    document.getElementById("outputField").className  = "outputField outputFieldLarge"
+  } else { 
+    document.getElementById("outputField").className  = "outputField"; 
   }
 });
+
+
+
+
+
+
+
